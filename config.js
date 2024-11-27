@@ -11,13 +11,13 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Caleb.',
 	imageBackground: false,
 	openInNewTab: true,
-	twelveHourFormat: false,
+	twelveHourFormat: true,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
+	greetingMorning: 'Good morning,',
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
 	greetingNight: 'Go to Sleep!',
@@ -61,7 +61,7 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://app.tuta.com/',
 		},
 		{
 			id: '3',
@@ -78,21 +78,21 @@ const CONFIG = {
 		{
 			id: '5',
 			name: 'Reddit',
-			icon: 'glasses',
+			icon: 'reddit',
 			link: 'https://reddit.com',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'YouTube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com/',
 		},
 	],
 
 	secondButtonsContainer: [
 		{
 			id: '1',
-			name: 'Music',
+			name: 'Spotify',
 			icon: 'headphones',
 			link: 'https://open.spotify.com',
 		},
@@ -104,9 +104,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
+			name: 'Discord',
+			icon: 'discord',
+			link: 'https://discord.com/',
 		},
 		{
 			id: '4',
@@ -139,20 +139,20 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Quick play',
+					link: 'https://open.spotify.com/playlist/37i9dQZF1EptuK5otojjwI?si=8e999081890c43a7',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Hip hop',
+					link: 'https://open.spotify.com/playlist/04rmgULS5NQDlzsPm8ID0i?si=bfb0f199363443ce',
 				},
 				{
 					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					link: 'https://open.spotify.com/playlist/37i9dQZF1EIZzr5vPbpzgU?si=077591c960ef4807',
+				},
+				{
+					name: 'Ambience',
+					link: 'https://open.spotify.com/playlist/1JVBEFWrCLLY3EsEDvuQ6Y?si=a02f47ff44f54a5b',
 				},
 			],
 		},
